@@ -1,0 +1,20 @@
+{
+  "name": "node_app",
+  "version": "1.0.0",
+  "description": "makeing a node application",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sanjay",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4"
+  }
+}
